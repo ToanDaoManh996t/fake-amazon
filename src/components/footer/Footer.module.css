@@ -1,0 +1,136 @@
+.footer {
+  background-color: #0f1111;
+  color: #fff;
+}
+
+.amazon_services {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.section_list {
+  flex-basis: 15%;
+}
+
+.section_list > ul {
+  margin-top: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.section_list > ul li {
+  padding: 5px 0;
+}
+
+.region {
+  border-top: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 30px;
+}
+
+.region > div {
+  margin-right: 40px;
+}
+
+.footer_logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 20px;
+}
+
+.selections {
+  display: flex;
+}
+
+.select {
+  display: flex;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  margin-left: 8px;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.language {
+  padding-right: 35px;
+  position: relative;
+}
+
+.language::before {
+  content: "";
+  border-right: 3px solid transparent;
+  border-left: 3px solid transparent;
+  border-bottom: 6px solid #fff;
+  position: absolute;
+  right: 5%;
+  top: 25%;
+}
+
+.language::after {
+  content: "";
+  border-right: 3px solid transparent;
+  border-left: 3px solid transparent;
+  border-top: 6px solid #fff;
+  position: absolute;
+  right: 5%;
+  bottom: 25%;
+}
+
+.currency {
+  padding-left: 8px;
+  padding-right: 20px;
+}
+
+.countries {
+  padding-right: 25px;
+}
+
+.countries > span {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.amazon_business {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.amazon_business_container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.amazon_business_row {
+  margin-top: 15px;
+  display: flex;
+}
+
+.amazon_business_col {
+  padding: 5px 10px;
+}
+
+.amazon_business_col a {
+  text-decoration: none;
+  font-size: 12px;
+}
+.amazon_business_col {
+  text-decoration: underline;
+}
+
+.amazon_business_col a p {
+  color: #fff;
+  text-decoration-color: #fff;
+}
+.amazon_business_col a p:last-child {
+  color: #aaaaaa;
+  text-decoration-color: #aaaaaa;
+}
